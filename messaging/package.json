@@ -1,0 +1,9 @@
+{
+  "name": "onaroll-messaging",
+  "version": "0.0.1",
+  "description": "On A Roll 21 messaging server",
+  "dependencies": {
+    "express": "^4.10.0",
+    "socket.io": "^1.1.0"
+  }
+}

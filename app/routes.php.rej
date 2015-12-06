@@ -1,0 +1,9 @@
+diff a/app/routes.php b/app/routes.php	(rejected hunks)
+@@ -66,6 +66,7 @@
+ 		Route::post('/notification/getNotificationList','APIController@getNotificationList');
+ 		Route::post('/survey/getSurveyList','APIController@getSurveyList');
+ 		Route::post('/survey/saveResponse','APIController@saveSResponse');
++		Route::post('/mission/detectLastMission','APIController@detectLastMission');
+     });
+ });
+ 
